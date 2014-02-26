@@ -21,7 +21,7 @@ function initializeVisia() {
 	jQuery("#top").click(function () {
 		return jQuery("body,html").stop().animate({
 			scrollTop: 0
-		}, 800, "easeOutCubic"), !1;
+		}, 2200, "easeOutCubic"), !1;
 	});
 
 	//RESPONSIVE HEADINGS
@@ -67,7 +67,7 @@ function initializeVisia() {
 	        first.css('margin-top', '0px');
 	        current = 1;
 	    } else current++;
-	}, 2500);
+	}, 4500);
 
 	//SERVICES TOOLTIP
 	(function() {
