@@ -6,7 +6,6 @@ gem 'jquery-rails'
 gem 'paperclip'
 gem 'aws-sdk'
 gem "auto_html"
-gem 'newrelic_rpm'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
