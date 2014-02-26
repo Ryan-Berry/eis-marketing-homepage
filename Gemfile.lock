@@ -63,6 +63,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.5.2)
     multi_json (1.8.4)
+    newrelic_rpm (3.7.2.192)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     paperclip (4.1.0)
@@ -134,6 +135,7 @@ DEPENDENCIES
   aws-sdk
   coffee-rails (~> 3.2.1)
   jquery-rails
+  newrelic_rpm
   paperclip
   pg (= 0.15.1)
   rails (= 3.2.13)
