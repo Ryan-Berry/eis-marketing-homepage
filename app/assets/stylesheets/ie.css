@@ -26,5 +26,5 @@ margin: 0 1.515151515152%;
 .copyright { margin-top: 30px!important; }
 
 #bx-pager a {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"!important; /* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"!important; /* IE 8 */
 }

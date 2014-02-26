@@ -15,6 +15,6 @@
  *= require_style
  *= require_animations
  *= require_shortcodes
- *= require_ruby-red
+ *= require_color
  *= require_tree .
  */

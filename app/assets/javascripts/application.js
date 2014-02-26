@@ -17,7 +17,6 @@
 //= require retina
 //= require smoothscroll
 //= require waypoints
-//= require parallax
 //= require navigation
 //= require jquery.mixitup
 //= require jquery.easing

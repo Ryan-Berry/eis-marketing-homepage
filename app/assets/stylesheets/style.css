@@ -123,9 +123,23 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 }
+.button2 {
+	display: inline-block;
+	padding: 20px 55px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 0.20em;
+	font-weight: 400;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background-color:rgba(0,0,0,1);
+}
 
 .dark .button { border: 1px solid #fff!important; }
+.dark .button2 { border: 1px solid #fff!important; }
 .dark .button:hover { background: rgba(255, 255, 255, .1); filter: alpha(opacity=50); }
+.dark .button2:hover { background: rgba(255, 255, 255, .1); filter: alpha(opacity=50); }
 
 .button.no-border { border: none!important; padding: 20px 0px; }
 
@@ -166,14 +180,15 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 
 .parallax.no-parallax { background-size: cover!important; background-attachment: scroll!important; background-position: center!important; }
 
-.parallax-bg1 { background-image: url(../images/parallax-bg1.png); }
-.parallax-bg2 { background-image: url(../assets/services.png); }
+.parallax-bg1 { background-image: url(../assets/hero.jpg); }
+.parallax-bg2 { background-image: url(../assets/services2.png); }
 .parallax-bg3 { background-image: url(../images/parallax-bg3.png); }
 .parallax-bg4 { background-image: url(../images/parallax-bg4.png); }
 
 .title { text-align: center; }
 
-.sub-heading { margin: 48px auto; max-width: 630px;font-size:1.1em;font-weight:400; }
+.sub-heading, .sub-heading2 { margin: 48px auto; max-width: 630px;font-size:1.1em;font-weight:400; }
+.sub-heading2 {max-width:860px;}
 
 .border {
 	display: block;
@@ -195,7 +210,7 @@ nav {
 	width: 100%;
 	background: #fff;
 	border-bottom: 2px solid #f0f0f0;
-	padding: 15px 0px;
+	padding: 8px 0px;
 	z-index: 999;
 }
 
@@ -219,7 +234,7 @@ nav {
 .desktop.navigation .nav-content li {
 	float: left;
 	margin-right: 45px;
-	line-height: 30px; /* Set to the height of your own logo to center the text */
+	line-height: 47px; /* Set to the height of your own logo to center the text */
 }
 
 .desktop.navigation .nav-content a {
@@ -230,7 +245,7 @@ nav {
     filter: alpha(opacity=50);
 }
 
-.desktop.navigation .nav-content a:hover, .desktop.navigation .nav-content a.active  { opacity: 1; filter: alpha(opacity=100); }
+.desktop.navigation .nav-content a:hover, .desktop.navigation .nav-content a.active  { color:#00c1cc; opacity: 1; filter: alpha(opacity=100); }
 
 .desktop.navigation .nav-content li:last-of-type { margin-right: 0px; }
 
@@ -297,18 +312,18 @@ nav {
 
 .ticker {
 	overflow: hidden;
-	height: 90px;
+	height: 120px;
 	vertical-align: baseline;
+	margin-top:0px;
 }
 
 .ticker h1 {
 	margin-bottom: 0px;
-	height: 90px;
-	color:#000000;
-    -webkit-transition: margin-top 0.5s ease-in-out;
-    -moz-transition:    margin-top 0.5s ease-in-out;
-    -o-transition:      margin-top 0.5s ease-in-out;
-    transition:         margin-top 0.5s ease-in-out;
+	height: 120px;
+    -webkit-transition: margin-top 1s ease-in-out;
+    -moz-transition:    margin-top 1s ease-in-out;
+    -o-transition:      margin-top 1s ease-in-out;
+    transition:         margin-top 1s ease-in-out;
 }
 
 .call-to-action { padding-top: 20px; }
@@ -612,10 +627,10 @@ i.icon-remove:hover {
 -------------------------------------------------------------- */
 
 #bx-pager { margin-top: 50px; }
-#bx-pager li { width: 25%; float: left; text-align: center; }
+#bx-pager li { width: 25%; float: left; text-align: center; margin:20px 0px; }
 #bx-pager a img {
-	opacity: .4;
-    filter: alpha(opacity=40); 
+	opacity: 1;
+    filter: alpha(opacity=100); 
 }
 
 #bx-pager a:hover img, #bx-pager a.active img {

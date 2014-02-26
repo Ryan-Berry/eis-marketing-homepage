@@ -4,4 +4,6 @@ MHV1::Application.routes.draw do
   match "home/shortcodes" => 'home#shortcodes'
   match "home/blog" => 'home#blog'
   
+  resources :home
+  
 end
