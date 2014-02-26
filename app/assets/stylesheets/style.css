@@ -1349,7 +1349,7 @@ footer { width: 100%; background: #060606;}
 	.project-info { border-bottom: none; }
 	.tooltip { width: 180%; left: 5%; margin-left: 0; }
 	.pull-left .tooltip { left: -85%;}
-	.button2, .ticker, .ticker h1 { max-width:300px; font-size:20px; line-height:26px; }
+	.button2, .ticker, .ticker h1 { font-size:20px; line-height:26px; }
 }
 
 
