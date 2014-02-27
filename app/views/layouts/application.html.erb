@@ -27,45 +27,18 @@
 		<![endif]-->
 
 	</head>
-	<body class="royal_loader">
+	<body>
 		
-		<%= render 'layouts/header' %>
-		<%= yield %>
-		<%= render 'layouts/footer' %>
+		<div class="loadingGif">
+			<h1 class="loading">Loading</h1>
+			<div class="gif"><%= image_tag('loadingAlt.gif') %></div>
+		</div>
 		
-		<script type="text/javascript">
-			//Replace with your own image's paths
-		   var images = {
-		        'hero':    		'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/hero.jpg',
-		        'about':    	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/marketing.png',
-		        'features':    'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/services2.png',
-		        'packshot1': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/pb.jpg',
-				'packshot2': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/passenger.jpg',
-				'packshot3': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/mm.jpg',
-				'packshot4': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/embrace.jpg',
-				'packshot5': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/madness.jpg',
-				'packshot6': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/ns.jpg',
-				'packshot7': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/thecult.jpg',
-				'packshot8': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/seb.jpg',
-				'clients1': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/cooking.png',
-				'clients2': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/nettwerk.png',
-				'clients3': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/rands.png',
-				'clients4': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/cherryred.png',
-				'clients5': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/stonesthrow.png',
-				'clients6': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/fatcat.png',
-				'clients7': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/innovative.png',
-				'clients8': 	'http://9679885329c747acf070-7fe62f209932fc3a0ebc81e38d921d9e.r46.cf2.rackcdn.com/sumerian.png'
-		    };
-
-		    // config
-		    Royal_Preloader.config({
-		        mode:       'number',
-		        images:     images,
-		        timeout:    10,
-		        showInfo:   false,
-		        background: ['#ffffff']
-		    });
-		</script>
+		<div class="body">
+			<%= render 'layouts/header' %>
+			<%= yield %>
+			<%= render 'layouts/footer' %>
+		</div>
 
 	</body>
 </html>

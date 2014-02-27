@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.min
-//= require royal-preloader
 //= require retina
 //= require smoothscroll
 //= require waypoints
@@ -33,5 +32,11 @@
 //= require_tree .
 
 $(document).ready(function() {
-		
+  	$('.body').hide();
+	$('.loadingGif').show();
+});
+
+$(window).load(function() {
+	$('.loadingGif').hide();
+  	$('.body').fadeIn(300);
 });
